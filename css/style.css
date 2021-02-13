@@ -1,0 +1,190 @@
+/* Global */
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* NavBar */
+
+.navbar-brand {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family: 'Reggae One', cursive;
+    font-size: 1.5rem;
+}
+.navbar-nav {
+    padding: 0.1% 10%;
+    font-family: 'Reggae One', cursive;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: #fff;
+}
+
+/* Title Section */
+
+.title-hello {
+    color: #fff;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans1;
+    animation-duration: 0.5s;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.title-hello:hover {
+    color: #DB5CA2;
+    text-decoration: none;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans2;
+    animation-duration: 0.5s;
+    margin-left: 60px;
+}
+.title-I-am {
+    color: #fff;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans1;
+    animation-duration: 0.5s;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.title-I-am:hover {
+    color:#DB5CA2;
+    text-decoration: none;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans2;
+    animation-duration: 0.5s;
+    margin-left: 60px;
+}
+.title-Arnav {
+    color: #fff;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans1;
+    animation-duration: 0.5s;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.title-Arnav:hover {
+    color: #DB5CA2;
+    text-decoration: none;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-name: trans2;
+    animation-duration: 0.5s;
+    margin-left: 60px;
+}
+@keyframes trans1 {
+    from {margin-left:60px;}
+    to {margin-left:0px;}
+}
+@keyframes trans2 {
+    from {margin-left: 0;}
+    to {margin-left: 60px;}
+}
+
+#title {
+    background-color: #5CDB95; 
+}
+.title-text {
+    position: relative;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 15%;
+    text-align: left;
+}
+h1{
+    font-family: 'Reggae One', cursive;
+    font-size: 5em;
+}
+.title-image {
+    padding-top: 20%;
+    position: relative;
+    width: 60%;
+    /* height: 50%; */
+}
+
+/* Hobbies Section */
+
+#hobbies {
+    margin: auto;
+    padding: 5% 10%;
+    background-color: #553d67;
+    color: white; 
+    position: relative;
+    /* z-index: 1; */
+}
+#hobbies h3 {
+    font-weight: bold;
+    padding: 10%;
+}
+.hobby-ico:hover {
+    color: greenyellow;
+}
+.hobby-item {
+    padding: 0 5%;
+}
+
+/* Skills Section */
+
+#skills {
+    margin: auto;
+    padding: 5% 10%;
+    background-color: #f64672;
+    color: #fff;
+}
+.skill-item {
+    padding: 2%;
+}
+
+/* Contact Section */
+
+.contact {
+    margin: auto;
+    padding: 5% 10%;
+    background-color: #99738e;
+    color: #fff;
+}
+#contact h2{
+    font-weight: 900;
+}
+.social-icon {
+    text-decoration: none;
+    color:#fff;
+    margin: 10px;
+}
+.social-icon:hover {
+    color: cyan;
+}
+.social {
+    text-align: left;
+}
+.postal {
+    text-align: right;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #2f2fa2;
+    color: #fff;
+    padding: 1%;
+}
+
+/* Responsiveness */
+
+@media (max-width: 900px) {
+    .social {
+        text-align: center;
+    }
+    .postal {
+        text-align: center;
+    }
+    .hobby-item {
+        padding: 5% 0;
+    }
+    .cp {
+        padding: 8% 0;
+    }
+}
